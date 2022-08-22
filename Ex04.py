@@ -1,0 +1,5 @@
+a = input('Digite algo ')
+print('É um numero ?', a.isnumeric())
+print('É uma letra ?', a.isalpha())
+print('É alphanumerico ?', a.isalnum())
+print('É um espaço ?', a.isspace())
